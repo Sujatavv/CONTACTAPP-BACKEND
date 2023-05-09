@@ -1,9 +1,10 @@
 const mongoose =require('mongoose');
 
+const conection_string =require('dotenv');
+
 const ConnectDb =async() =>{
     try{
-    
-        const connect =await mongoose.connect("mongodb+srv://sujata22:suji@452@sujata.k4spyoi.mongodb.net/MYCONTACT-PRO?retryWrites=true&w=majority");
+const connect =await mongoose.connect(process.env.conection_string);
         console.log("Database connected" ,
         connect.connection.host,
         connect.connection.name

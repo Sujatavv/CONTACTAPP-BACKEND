@@ -1,4 +1,4 @@
-exports.constants = {
+exports .Constants = {
     VALIDATION_ERROR:400,
     FORBIDDEN:403,
     UNOTHORISED:401,

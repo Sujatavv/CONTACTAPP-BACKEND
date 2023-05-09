@@ -14,11 +14,11 @@ const {
     createcontact,
     getContact,
     updatecontact,
-    deleteContact}=require("./controllers/contactcontrollers");
+    deleteContact}
+    =require("./controllers/contactcontrollers");
 // const createcontact=require("./controllers/contactcontrollers");
 
-// routes.route("/").get((req,res)=>{
-    //  res.status(200).json({messege:"Get all contacts"});
+// routes.route("/").get((req,res)=>
 
 //  });
 // const getContact= contacts;
